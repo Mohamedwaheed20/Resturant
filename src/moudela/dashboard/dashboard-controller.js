@@ -5,6 +5,6 @@ import { authantication_middelware } from "../../middelware/authantication-midde
 
 const dashboardController = Router();
 
-dashboardController.get("/overview",authantication_middelware(), errorHandler(dashboardService.dashboardOverview));
+dashboardController.get("/overview", errorHandler(dashboardService.dashboardOverview));
 
 export default dashboardController;
