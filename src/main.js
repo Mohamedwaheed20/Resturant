@@ -33,7 +33,7 @@ async function bootstrap() {
   routerHandler(app);
 
   app.get('/', (req, res) => {
-    res.status(200).json({ message: "server is running" });
+    res.status(200).json({ message: "server is runningggg" });
   });
   const server = app.listen(process.env.PORT, () => {
     console.log(`server is running on port ${process.env.PORT}`);
